@@ -1,4 +1,4 @@
-package Binary_Search;
+//  https://leetcode.com/problems/search-insert-position/
 
 public class smaller_letter_greater_than_number_leetcode {
     public static void main(String[] args) {
