@@ -11,11 +11,11 @@ public class textCount {
             while(fis.available()!=0)
             {
                 code = fis.read();
-                if(code!=10) // not a line
+                if(code!=10) // not a line /n
                     chars++;
                 if(code==32) // space with word
                     words++;
-                if(code==13)
+                if(code==13) // /r
                 {
                     lines++;
                     words++;

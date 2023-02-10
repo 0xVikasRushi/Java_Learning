@@ -14,8 +14,10 @@ public class filecpy {
 
                 int cnt;
                 while((cnt = in.read())!=-1){
+                    System.out.println(cnt);
                     out.write((char)cnt);
                 }
+            System.out.println(cnt);
         }finally {
             in.close();
             out.close();
