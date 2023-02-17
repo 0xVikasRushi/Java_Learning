@@ -3,6 +3,8 @@ class customExcep extends Exception{
         super(_str);
     }
 }
+
+
 public class customException {
 
     public static void checkAge(int age ) throws customExcep{

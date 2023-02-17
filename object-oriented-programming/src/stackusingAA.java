@@ -28,4 +28,5 @@ class stackimpl <T> {
         stack.remove(top--);
     }
 
+
 }

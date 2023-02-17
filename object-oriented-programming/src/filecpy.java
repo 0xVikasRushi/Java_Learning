@@ -22,6 +22,5 @@ public class filecpy {
             in.close();
             out.close();
         }
-
     }
 }

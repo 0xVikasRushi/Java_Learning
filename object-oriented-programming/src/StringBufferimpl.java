@@ -8,5 +8,10 @@ public class StringBufferimpl {
         System.out.println(str);
         str.replace(0, 5, "Hi");
         System.out.println(str);
+        StringBuilder str1 = new StringBuilder("vikasnew");
+        str.setCharAt(0,'l');
+        System.out.println(str1.capacity());
+        System.out.println(str);
+
     }
 }

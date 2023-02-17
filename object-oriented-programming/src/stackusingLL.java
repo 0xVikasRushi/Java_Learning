@@ -35,4 +35,13 @@ class stackLL<T>{
     }
 }
 public class stackusingLL {
+    public static void main(String[] args) {
+        stackLL<Integer> arr = new stackLL<>();
+        arr.push(10);
+        arr.push(20);
+        arr.push(30);
+        arr.pop();
+        arr.pop();
+        arr.pop();
+    }
 }

@@ -23,7 +23,7 @@ public class generic_two_parameter {
 
         TWOGEN<String,Integer> g1 = new TWOGEN<String,Integer>("vikas",1);
         g1.showTypes();
-        String a = g1.getOb1();
-        System.out.println(a);
+//        String a = g1.getOb1();
+        System.out.println(g1.getOb2());
     }
 }

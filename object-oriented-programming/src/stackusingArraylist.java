@@ -13,7 +13,6 @@ class stackA{
     public void pop(){
        stack.remove(top--);
     }
-int[][] arr = new int[10][];
 }
 public class stackusingArraylist {
     public static void main(String[] args) {

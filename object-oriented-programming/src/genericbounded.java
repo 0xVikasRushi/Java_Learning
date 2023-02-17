@@ -11,7 +11,6 @@ class boundedClass <T extends Number>{
         return ans/nums.length;
     }
 }
-
 public class genericbounded {
     public static void main(String[] args) {
         Integer[] ans = {1,2,3,4,42909};

@@ -29,3 +29,5 @@ public class geneicInterha {
         k.showtype();
     }
 }
+
+
